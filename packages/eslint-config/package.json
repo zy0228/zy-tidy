@@ -4,8 +4,7 @@
   "description": "eslint config for react application",
   "main": "index.js",
   "files": [
-    "index.js",
-    "dist"
+    "src/*"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -19,5 +18,8 @@
     "eslint-plugin-react": "^7.29.4",
     "eslint-plugin-react-hooks": "^4.4.0",
     "prettier": "^2.6.2"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
