@@ -1,5 +1,5 @@
 {
-  "name": "@zy-tidy/eslint-config",
+  "name": "@tidy-all/eslint-config",
   "version": "0.0.1",
   "description": "eslint config for react application",
   "main": "index.js",
