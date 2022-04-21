@@ -1,15 +1,16 @@
 {
   "name": "@zy-tidy/eslint-config",
   "version": "0.0.1",
-  "description": "",
-  "main": "lib/index.js",
+  "description": "eslint config for react application",
+  "main": "index.js",
   "files": [
-    "lib/**/*"
+    "index.js",
+    "dist"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Snoop Zhang",
   "license": "ISC",
   "dependencies": {
     "eslint": "^8.13.0",
