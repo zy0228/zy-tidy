@@ -1,10 +1,6 @@
-#@tidy-all/eslint [![npm version](https://badge.fury.io/js/@tidy-all%2Feslint.svg)](https://badge.fury.io/js/@tidy-all%2Feslint)
+# @dity-all/eslint [![npm version](https://badge.fury.io/js/@tidy-all%2Feslint.svg)](https://badge.fury.io/js/@tidy-all%2Feslint)
 
----
-
-#### quick clean for you code🐱‍👤✔
-
----
+> quick clean for you code🐱‍👤✔
 
 # install
 
