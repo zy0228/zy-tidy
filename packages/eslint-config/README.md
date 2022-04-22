@@ -1,4 +1,4 @@
-# @dity-all/eslint [![npm version](https://badge.fury.io/js/@tidy-all%2Feslint.svg)](https://badge.fury.io/js/@tidy-all%2Feslint)
+# @tidy-all/eslint [![npm version](https://badge.fury.io/js/@tidy-all%2Feslint.svg)](https://badge.fury.io/js/@tidy-all%2Feslint)
 
 > quick clean for you code🐱‍👤✔
 
@@ -15,7 +15,7 @@ config in your .eslintrc.json or .js
 
 ```
 {
-  extends: [require.resolve('@dity-all/eslint/src/reactES')],
+  extends: [require.resolve('@tidy-all/eslint/src/reactES')],
   rules: {...} // overwrite
 }
 ```
