@@ -1,7 +1,6 @@
 module.exports = {
   root: true,
   extends: [
-    'react-app',
     'plugin:react/recommended',
     'plugin:prettier/recommended'
   ],
