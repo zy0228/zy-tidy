@@ -1,6 +1,6 @@
 {
   "name": "@tidy-all/eslint",
-  "version": "0.0.71",
+  "version": "0.0.84",
   "description": "eslint config for react application",
   "main": "src/index.js",
   "files": [
@@ -16,14 +16,14 @@
     "prettier": ">=2.5.0"
   },
   "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.13.0",
+    "@typescript-eslint/parser": "^5.13.0",
     "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.29.4",
-    "eslint-plugin-react-hooks": "^4.4.0"
-  },
-  "devDependencies": {
-    "eslint": "^8.13.0",
-    "prettier": "^2.6.2"
+    "eslint-plugin-react-hooks": "^4.4.0",
+    "eslint-plugin-simple-import-sort": "^7.0.0"
   },
   "publishConfig": {
     "access": "public"

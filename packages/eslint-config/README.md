@@ -14,8 +14,16 @@ or pnpm add -D @tidy-all/eslint
 config in your .eslintrc.json or .js
 
 ```
-{
+module.exports = {
   extends: [require.resolve('@tidy-all/eslint/src/reactES')],
   rules: {...} // overwrite
+}
+```
+
+and, setup .prettierrc.js
+
+```
+module.exports = {
+  ...require('@tidy-all/eslint/src/prettier'),
 }
 ```
