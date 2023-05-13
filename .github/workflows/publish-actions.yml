@@ -1,7 +1,7 @@
 name: publish actions
 run-name: zy-tidy actions
 on: 
-  pusj:
+  push:
     branches:
       - main
 jobs:
