@@ -1,12 +1,9 @@
 name: publish actions
 run-name: zy-tidy actions
-working-directory: ./packages/eslint-config
 on: 
   push:
     branches:
       - main
-    paths:
-      - 'sub'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -17,6 +14,7 @@ jobs:
           node-version: '16.x'
           registry-url: 'https://registry.npmjs.org'
       - run: npm publish
+        working-directory: ./packages/eslint-config
         env:
           NPM_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
