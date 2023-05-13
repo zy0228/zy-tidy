@@ -1,9 +1,12 @@
 name: publish actions
 run-name: zy-tidy actions
+working-directory: ./packages/eslint-config
 on: 
   push:
     branches:
       - main
+    paths:
+      - 'sub'
 jobs:
   build:
     runs-on: ubuntu-latest
