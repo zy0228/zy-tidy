@@ -30,5 +30,9 @@ module.exports = {
       2,
       { SwitchCase: 1, VariableDeclarator: 1, outerIIFEBody: 1 },
     ],
+    quotes: [2, 'single'],
+    semi: [2, 'never'],
+    'max-params': 0,
+    'object-curly-spacing': ['error', 'always']
   }
 }
