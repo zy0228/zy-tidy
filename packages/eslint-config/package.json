@@ -1,6 +1,6 @@
 {
   "name": "@tidy-all/eslint",
-  "version": "0.8.0",
+  "version": "0.8.1",
   "description": "eslint config for react application",
   "main": "src/index.js",
   "files": [
@@ -20,7 +20,7 @@
     "@typescript-eslint/parser": "^5.13.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-import": "^2.26.0",
-    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-prettier": "^5.0.0",
     "eslint-plugin-react": "^7.29.4",
     "eslint-plugin-react-hooks": "^4.4.0",
     "eslint-plugin-simple-import-sort": "^7.0.0"
